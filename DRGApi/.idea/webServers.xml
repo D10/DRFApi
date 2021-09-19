@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a01901cf-cf1b-4df5-a368-46873d994edb" name="стильплюс.рус">
+        <fileTransfer rootFolder="/var/www/vhosts/stilplus.ru" accessType="SFTP" host="xn--h1agaphec6fua.xn--p1acf" port="52013" sshConfigId="8e561554-3a07-4657-a2be-94fbeee9f04a" sshConfig="ps_gadamurov_r@xn--h1agaphec6fua.xn--p1acf:52013 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="11674fb7-3c3f-4a4f-a6d4-50c33fc78688" name="vdm35.ru">
+        <fileTransfer rootFolder="/var/www/vhosts/vdm35.ru" accessType="SFTP" host="vdm35.ru" port="22" sshConfigId="5c5162fe-5b22-4bce-bb22-98f4d2c287fc" sshConfig="ps_gadamurov_r@vdm35.ru:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
